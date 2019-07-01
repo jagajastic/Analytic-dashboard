@@ -1,0 +1,68 @@
+.bg {
+  background: #f2f8ff;
+}
+
+.anyClass {
+  height: 100vh;
+  overflow-y: scroll;
+  padding: 0;
+}
+
+.any-tableClass {
+  height: 500px;
+  overflow-y: scroll;
+  padding: 0;
+}
+
+.anyClass ul li:hover {
+  background: white;
+  border-bottom: rgb(238, 236, 236) 1px solid;
+  border-top: rgb(238, 236, 236) 1px solid;
+}
+.anyClass ul li {
+  list-style: none;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.anyClass ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.anyClass ul {
+  padding: 0;
+  margin: 0;
+}
+
+.bg-white {
+  background: white;
+}
+
+.bd-less {
+  padding: 0 !important ;
+  margin: 0 !important;
+}
+
+.shadow-top {
+  box-shadow: 0 -5px 5px -5px #dedbdb !important;
+}
+
+.h100 {
+  height: 100vh;
+}
+.card-text {
+  word-wrap: break-word;
+}
+
+.text-circle {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  padding: 20px;
+  margin-right: 20px;
+  background: #eaeaea;
+  color: black;
+  font-size: 1.9em;
+}
