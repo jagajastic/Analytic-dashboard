@@ -66,3 +66,17 @@
   color: black;
   font-size: 1.9em;
 }
+
+.overlay {
+  position: relative;
+}
+
+.bg-cover {
+  background-image: url('/assets/cover-5.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
