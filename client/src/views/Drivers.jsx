@@ -39,13 +39,27 @@ const Drivers = props => {
       </div>
       <div className="col bg-white shadow-top">
         <div className="m-md-5 p-md-4 m-4 ">
-          <h1>{currentDriver.name || ''}</h1>
-          <p>{new Date(currentDriver.DOB).toLocaleDateString() || ' '}</p>
-          <p>{currentDriver.gender}</p>
-          <p>{currentDriver.phone}</p>
-          <p>{currentDriver.email}</p>
-          <p>{currentDriver.address}</p>
-          <p>{currentDriver.agent}</p>
+          <div className="row bg p-md-4 p-4 m-2 ">
+            <h1>{currentDriver.name || ''}</h1>
+          </div>
+          <div className="row bg p-md-4 p-4 m-2">
+            <div className="col">
+              <b>Date of Birth</b>
+              <p>{new Date(currentDriver.DOB).toLocaleDateString() || ' '}</p>
+              <b>Gender</b>
+              <p>{currentDriver.gender}</p>
+              <b>Phone number</b>
+              <p>{currentDriver.phone}</p>
+            </div>
+            <div className="col">
+              <b>Email</b>
+              <p>{currentDriver.email}</p>
+              <b>Address</b>
+              <p>{currentDriver.address}</p>
+              <b>Agent</b>
+              <p>{currentDriver.agent}</p>
+            </div>
+          </div>
           <p>
             <VehicleDetails vehicleID={currentDriver.vehicleID} />
           </p>
